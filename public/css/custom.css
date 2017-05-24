@@ -1,0 +1,35 @@
+.has-error .checkbox, .has-error .checkbox-inline, .has-error.checkbox-inline label, .has-error.checkbox label, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.radio-inline label, .has-error.radio label {
+    color: #a94442;
+}
+ /* Add ajax preloader when server is being requested */
+.validating-server-side {
+    background: url(img/ajax-preloader.gif) no-repeat center right;
+    opacity: 0.6
+}
+.red{
+	color: #a94442;
+}
+.green{
+	color: green;
+}
+
+.v-margin-10 {
+  /*clear: both;
+  margin-left: 25%;
+  margin-top: 1%;
+  text-align: center;
+  width: 66%;*/
+  margin-top: 1rem;
+}
+#map-canvas { height: 300px; margin: 10px 0; }
+
+.ui.selection.search.dropdown.has-error,.ui.selection.dropdown.has-error {
+  border: 1px solid #b94a48;
+}
+/*.error{
+	background: #fff6f6 !important;
+    border-color: #e0b4b4 !important;
+    color: #9f3a38 !important;
+    border-radius: '';
+    box-shadow: none !important;
+}*/
